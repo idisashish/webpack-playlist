@@ -1,4 +1,4 @@
-# webpack-playlist
+# webpack-playlist - Lesson 3 - The webpack.config File
 
 *****command to use*******
 
