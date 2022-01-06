@@ -12,3 +12,20 @@
 
 # Installing Babel
 npm install babel-core babel-loader babel-preset-es2015 --save-dev
+
+
+# webpack.config
+module: {
+  loaders: [
+    {
+      test:/\.js$/,
+      exclude: /(node_modules)/,
+      loader: 'babel-loader',
+      query: {
+        presets: ['es2015']
+      }
+    }
+  ]
+}
+
+# in presets we can use es6 or es7 or the latest in place of es2015
